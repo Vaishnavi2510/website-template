@@ -1,0 +1,513 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", serif;
+}
+#background{
+    background-image: url(https://preview.colorlib.com/theme/courses/assets/img/hero/h1_hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+#navbar{
+    position:fixed;
+    top: 0px;
+    width: 100%;
+}
+#online-learning{
+    text-align:left ;
+    padding: 16rem 6rem;
+    margin-left: 10rem;
+    h1{
+        font-size:3.5rem;
+        color:white;
+        padding-bottom: 5px;
+    }
+    p{
+        color: white;
+        margin: 5px,0px;
+        font-size:1.2rem;
+        
+    }
+    #join-for-free{
+        margin-top: 1.5rem;
+        margin-right: 2rem;
+        float: left;
+        padding:15px 55px;
+        color: white;
+        font-size:1rem ;
+        background-color: #FF9F67;
+        border-color: #FF9F67;
+        border-radius: 7px;
+    }
+}
+#right-navbar{
+    color: white;
+    font-size: 17px;
+    float: right;
+    display: flex;
+    margin-right: 9rem;
+    margin-top:30px;
+    ul{
+        display: flex;
+        list-style-type: none;
+        cursor: pointer;
+        li{
+            padding: 15px;  
+        }
+    }
+}
+#right-navbar button{
+    color: white;
+    font-size: 17px;
+    padding: 15px 40px;
+    margin: 0px 12px;
+    border-radius: 0.5rem; 
+    border: 1px solid white;
+    cursor: pointer;
+}
+#right-navbar button:hover{
+    background-color:rgb(52, 52, 200);
+}
+#join{
+    background-color: #FF9F67;
+}
+#log-in{
+    background-color: transparent;
+}
+#left-navbar{
+    color: white;
+    float: left;
+    display: flex;
+    margin-top:20px;
+    padding: 15px 40px;
+    i{
+    font-size: 32px;
+    position: relative;
+    bottom: 6px;
+    padding: 8px;
+    } 
+}
+#build{
+    padding: 30px 0px;
+}
+#features{
+    display: flex;
+    color: #4255A4;
+    position: absolute; 
+    top:41rem;
+    margin-left: 12rem;   
+} 
+#courses,#expert,#life{
+    border:none;
+    border-radius: 1.5rem;
+    padding: 20px;
+    width: 23%;
+    margin: 1rem;
+    display: flex;
+    box-shadow:0px 25px 60px rgba(66, 85, 164, 0.06);
+    background-color: white;
+    p{
+        width: 76%;
+        padding-top:10px;
+    }
+}
+.title{
+    float: left;
+    margin: 8px;
+    margin-left: 12px;
+    position: relative;
+    top: 5px;
+}
+#Our-featured-courses{
+    margin-top: 10rem;
+    text-align:left;
+    h1{
+    margin-bottom:3rem;
+    text-align: center;
+    }
+}
+#featured-courses{
+    display: flex;
+}
+.course{
+    border:none;
+    box-shadow:0px 25px 60px rgba(66, 85, 164, 0.06) ;
+    background-color: white;
+    img{
+        position:relative;
+        left: 10px;
+    }
+    .user{
+        margin-left: 2rem;
+        p{
+            padding: 1rem 0px;
+            color: #6E7697;
+            span{
+                color: #FF9F67;
+            }
+        }
+        a{
+            color: #4255A4;
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+    }
+    .find-out-more{
+        border:1px solid #4255A4;
+        background-color:transparent;
+        padding:1rem 6rem;
+        margin: 3rem 2rem;
+        border-radius:0.5rem;
+        color:#4255A4;
+        text-align: center;
+    }
+    .star{
+        display: flex;
+        justify-content: space-between;
+        i{
+            color: rgb(193, 102, 10);
+        }
+    }
+    .price{
+        color: #2a50e7;
+        font-size: 23px;
+        font-weight: 550;
+        margin-right:2rem;
+    }
+}
+#c1{
+    margin-left:10rem;
+}
+#c2{
+    margin:0px 1.5rem;
+}
+#c3{
+    margin-right:10rem;
+}
+#learn-new-skills{
+    display: flex;
+    color: #4255A4;
+    margin-top: 7rem;
+}
+#learn-left{
+    margin-left: 8rem;
+    img{
+        background-color: rgb(140, 74, 202);
+        padding: 20px;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+    i{
+        color: #FF9F67;
+        font-size: 25px;
+    }
+    p{
+        color:rgb(35, 2, 65);
+        width: 56%;
+        margin:40px 0px;
+    }
+    h1{
+        margin: 10px 0px;
+        width: 40%;
+    }
+    li{
+        padding: 10px 0px;
+        width: 55%;
+        list-style-type: none;
+    }
+}
+#learn-right{
+    margin-top: 10rem;
+    i{
+        background-color: #FF9F67;
+        padding: 20px;
+        border-radius: 50%;
+        color: white;
+        font-size: 20px;
+    }
+}
+#programming-container{
+    display: flex;
+    flex-wrap: wrap;
+    width:83%;
+    justify-content: center;
+    margin-left: 7rem;
+}
+.programming1{
+    background-image: url(https://preview.colorlib.com/theme/courses/assets/img/gallery/topic1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:3rem;
+    margin: 10px;
+    border-radius: 0.5rem; 
+    h2{
+        margin-top: 1rem;
+        font-size:21px;
+        color: white;
+    }
+}
+.programming2{
+    background-image: url(https://preview.colorlib.com/theme/courses/assets/img/gallery/topic2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:3rem;
+    margin: 10px; 
+    border-radius: 0.5rem; 
+    h2{
+        margin-top: 1rem;
+        color: white;
+        font-size:21px;
+    }
+}
+.programming3{
+    background-image: url(https://preview.colorlib.com/theme/courses/assets/img/gallery/topic3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:3rem 3rem;
+    margin: 10px; 
+    border-radius: 0.5rem; 
+    h2{
+        margin-top: 1rem;
+        color: white;
+        font-size:21px;
+    }
+}
+.programming4{
+    background-image: url(https://preview.colorlib.com/theme/courses/assets/img/gallery/topic4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:3rem;
+    margin: 10px; 
+    border-radius: 0.5rem; 
+    h2{
+        margin-top: 1rem;
+        color: white;
+        font-size:21px;
+    }
+}
+.programming5{
+    background-image: url(https://preview.colorlib.com/theme/courses/assets/img/gallery/topic5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3rem; 
+    margin: 10px;
+    border-radius: 0.5rem; 
+    h2{
+        margin-top: 0.7rem; 
+        color: white;
+        font-size:21px;
+    }
+}
+.programming6{
+    background-image: url(https://preview.colorlib.com/theme/courses/assets/img/gallery/topic6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:3rem;
+    margin: 10px; 
+    border-radius: 0.5rem; 
+    h2{
+        margin-top: 0.7rem;
+        color: white;
+        font-size:21px;
+    }
+}
+.programming7{
+    background-image: url(https://preview.colorlib.com/theme/courses/assets/img/gallery/topic7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:3.5rem 3rem; 
+    margin: 10px;
+    border-radius: 0.5rem; 
+    h2{
+        margin-top: 0.5rem;
+        color: white;
+        font-size:21px;
+    }
+}
+.programming8{
+    background-image: url(https://preview.colorlib.com/theme/courses/assets/img/gallery/topic8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:3.5rem 3rem;
+    margin: 10px; 
+    border-radius: 0.5rem; 
+    h2{
+        margin-top: 0.5rem;
+        color: white;
+        font-size:21px;
+    }
+}
+.programming1:hover,.programming2:hover,.programming3:hover,.programming4:hover,.programming5:hover,.programming6:hover,.programming7:hover,.programming8:hover{
+   
+   text-decoration: underline;
+   color: white;
+} 
+#explore{
+    text-align: center;
+    margin-top:10rem ;
+    h1{
+        color: #4255A4;
+        margin-bottom: 4rem;
+        font-size: 45px;
+    }
+}
+#view-more-sub{
+    color: #FF9F67;
+    border: 1px solid #FF9F67 ;
+    padding: 20px 0px;
+    margin: 4rem 40rem ;
+    border-radius: 0.5rem;
+}
+#learner-container{
+    display: flex;
+    margin-top: 8rem;
+    color: #4255A4;
+}
+#learner{
+    margin-left: 5rem;
+    margin-top: 7rem;
+    h1{
+        width:70% ;
+    } 
+    i{
+        color: #FF9F67;
+        font-size: 25px;
+    }
+    li{
+        padding: 10px 0px;
+        width: 65%; 
+        list-style-type: none;
+        color: rgb(74, 10, 133);
+    }
+}
+#community-expert-container{
+    margin-top: 6rem;
+    color: #4255A4;
+    h1{
+        text-align: center;
+    }
+
+}
+#community-experts{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    img{
+        margin-left:1.5rem;
+    }
+    h3{
+        text-align:left;
+        margin-left: 5rem;
+    }
+    p{
+        width: 70%;
+        text-align: center;
+    }
+}
+#take-container{
+    margin-top: 5rem;
+    display: flex;
+    img{
+        width: 45%;
+        margin: 0rem 3rem ;
+    }
+}
+#take-the-next-step{
+    h2{
+        color: #4255A4;
+        width: 70%; 
+        margin-top: 4rem;
+        font-size: 3rem; 
+    }
+    p{
+        color:rgb(35, 2, 65);
+        width: 62%;
+        margin: 3rem 0rem;
+
+    }
+    a{
+        background-color: #FF9F67;
+        padding: 17px 3rem;
+        border-radius: 0.5rem;
+        color: white;
+    }
+}
+footer{
+    background-color: #4255A4;
+    display: flex;
+    margin-top: 6rem;
+    padding-bottom:4rem;
+    position: relative;
+}
+.list{
+    h3{
+        color: white;
+        padding-bottom: 20px;
+        font-size: 26px;
+    }
+    ul{
+        list-style-type: none;
+        color: white;
+        margin-right:9rem;
+    }
+    li{
+        padding:10px 0px;
+    }
+}
+#footer-right{
+    display: flex;
+    margin: 6rem;
+    margin-top: 8rem;
+}
+#footer-left{
+    margin-top:8.5rem;
+    margin-left: 10rem;
+    img{
+        margin-bottom: 2rem;
+    }
+    p{
+        color: white;
+    }
+    #icons{
+        margin-top: 4rem;
+        i{
+            margin-right:1rem;
+            font-size: 1.5rem;
+            background-color: #284bd7;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+        }
+    }
+}
+#copyright{
+    color: white;
+    position:absolute;
+    top: 30rem;
+    margin-left: 25rem;
+    font-size: 20px;
+    i{
+        color: palevioletred;
+    }
+}
+#turn-up i{
+      color: white;
+      padding: 20px;
+      background-color: violet;
+      border-radius: 50%;
+      font-size: 22px;
+      position: fixed;
+      bottom:2rem;  
+}
+    
